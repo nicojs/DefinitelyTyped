@@ -528,4 +528,6 @@ export interface CreateConfigItemOptions {
  */
 export function createConfigItem(value: PluginTarget | [PluginTarget, PluginOptions] | [PluginTarget, PluginOptions, string | undefined], options?: CreateConfigItemOptions): ConfigItem;
 
+export const DEFAULT_EXTENSIONS: ReadonlyArray<string>;
+
 export as namespace babel;

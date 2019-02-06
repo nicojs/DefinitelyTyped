@@ -39,3 +39,5 @@ babel.transformFromAstAsync(parsedAst!, sourceCode, options).then(transformFromA
     const { code, map, ast } = transformFromAstAsyncResult!;
     const { body } = ast!.program;
 });
+
+const defaultExtensions: ReadonlyArray<string> = babel.DEFAULT_EXTENSIONS;
